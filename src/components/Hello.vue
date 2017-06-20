@@ -39,62 +39,60 @@
 		<section class="bg-gray feed">
 			<h2>Latest Content</h2>
 			<ul class="cards">
-				<li class="card">
+				<li v-for="(post, index) in posts" class="card">
 					<article class="card-container">
-						<div class="card-photo inverted" style="background: white url('https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png') repeat 0 0;">
-							Sample Text Goes Here
+						<div class="card-photo" v-bind:style="{background: 'white url('+post.pattern+') repeat 0 0', color: post.titleColor}">
+							{{post.title}}
 						</div>
 						<p class="card-text">
-							This is some example description text to discuss what the card is about.  It will probably be this long.
+							{{post.description}}
 						</p>
-						<div class="card-cta">
-							<a class="cta" href="#">Read More</a>
-						</div>
-					</article>
-				</li>
-
-				<li class="card">
-					<article class="card-container">
-						<div class="card-photo" style="background: white url('/static/bgphotos/witewall_3.png') repeat 0 0;">
-							Sample Text Goes Here
-						</div>
-						<p class="card-text">
-							This is some example description text to discuss what the card is about.  It will probably be this long.
-						</p>
-						<div class="card-cta">
-							<a class="cta" href="#">Read More</a>
-						</div>
-					</article>
-				</li>
-
-				<li class="card">
-					<article class="card-container">
-						<div class="card-photo inverted" style="background: white url('https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png') repeat 0 0;">
-							Sample Text Goes Here
-						</div>
-						<p class="card-text">
-							This is some example description text to discuss what the card is about.  It will probably be this long.
-						</p>
-						<div class="card-cta">
-							<a class="cta" href="#">Read More</a>
+						<div class="card-cta-container">
+							<a class="card-cta" target="_blank" v-if="post.openInNewWindow" v-bind:href="post.url">Read More</a>
+							<a class="card-cta" v-else v-bind:href="post.url">Read More</a>
 						</div>
 					</article>
 				</li>
 			</ul>
 			<p>
-				View all <a href="/#/talks">videos</a> and <a href="/#/articles">articles</a>.
+				View all <a href="/#/talks">videos</a> and <a href="/#/blog">articles</a>.
 			</p>
 		</section>
 	</div>
 </template>
 
 <script>
+	import { getThreeLatest } from './posts.js'
 	export default {
 		name: 'hello',
 		data() {
 			return {
-				msg: 'Welcome to Your Vue.js App',
+				loading: false,
+				posts: null,
+				featuredPost: null,
+				error: null
 			};
+		},
+		created () {
+			this.fetchData()
+		},
+		watch: {
+			'$route': 'fetchData'
+		},
+		methods: {
+			fetchData () {
+				this.error = this.post = null;
+				this.loading = true;
+				getThreeLatest(null, (err, posts) => {
+					this.loading = false;
+					if (err) {
+						this.error = err.toString();
+					} else {
+						this.featuredPost = posts[0];
+						this.posts = posts;
+					}
+				});
+			}
 		},
 	};
 

@@ -15,7 +15,7 @@
 <script>
 	import { getPost } from './posts.js'
 	export default {
-		name: 'post',
+		name: 'talk',
 		data() {
 			return {
 				loading: false,

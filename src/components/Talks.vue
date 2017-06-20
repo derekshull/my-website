@@ -1,7 +1,7 @@
 <template>
 	<div class="hello">
 		<section class="featured">
-			<h1 style="margin-top:0px;">Featured Post:</h1>
+			<h1 style="margin-top:0px;">Featured Talk:</h1>
 			<h2>{{featuredPost.title}}</h2>
 			<p style="font-size:18px;">
 				{{featuredPost.description}}
@@ -39,7 +39,7 @@
 <script>
 	import { getAllPosts } from './posts.js'
 	export default {
-		name: 'blog',
+		name: 'talks',
 		data() {
 			return {
 				loading: false,
@@ -58,7 +58,7 @@
 			fetchData () {
 				this.error = this.post = null;
 				this.loading = true;
-				getAllPosts("blog", (err, posts) => {
+				getAllPosts("talk", (err, posts) => {
 					this.loading = false;
 					if (err) {
 						this.error = err.toString();

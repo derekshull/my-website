@@ -22,7 +22,7 @@
 				<ul class="side-nav__content">
 					<li><a class="js-side-nav__link" href="/#/blog" title="go to matt's blog">Blog</a></li>
 					<li><a class="js-side-nav__link" href="/#/talks" title="see all of matt's talks">Talks</a></li>
-					<li><a class="js-side-nav__link" href="/#/work" title="see matt's work">Work</a></li>
+					<!--<li><a class="js-side-nav__link" href="/#/courses" title="see matt's work">Courses</a></li>-->
           <li><a class="js-side-nav__link" href="/#/contact" title="contact matt">Contact</a></li>
 				</ul>
 			</nav>
@@ -44,26 +44,6 @@ export default {
     margin:0;
     box-sizing: border-box;
   }
-
-  h1 {
-		font-size: 38px;
-		margin: 10px 0px;
-	}
-
-  h2 {
-		font-size: 30px;
-		margin: 10px 0px;
-	}
-
-  h3 {
-		font-size: 26px;
-		margin: 10px 0px;
-	}
-
-  h4 {
-		font-size: 22px;
-		margin: 5px 0px;
-	}
 
   .feed {
 		padding: 50px 0px;
@@ -281,8 +261,8 @@ export default {
 
 	.card {
 		width: 100%;
-		max-width:450px;
-		padding:10px;
+		max-width:500px;
+		padding:20px 10px;
 	}
 
 	.card-container {
@@ -291,6 +271,10 @@ export default {
 		border-radius: 5px;
 		margin: 10px 0px;
 		background:white;
+		display:flex;
+		flex-direction:column;
+		justify-content:space-between;
+		height:100%;
 	}
 
 	.card-container:hover {
@@ -312,11 +296,43 @@ export default {
 		padding:0px 10px;
 	}
 
-	.card .card-cta {
-		padding:0px 10px 10px 10px;
+	.card .card-cta-container {
+		padding:10px;
+		border-top: 1px solid #e2e2e2;
+		text-align:left;
+		display:flex;
+		align-items:center;
 	}
 
-	@media(min-width:768px) {
+	.card .card-tags {
+		display:flex;
+		justify-content: flex-end;
+		width:70%;
+		flex-wrap: wrap;
+	}
+
+	.card .card-tag {
+		padding: 5px 15px;
+		background: #03a9f4;
+		color: white;
+		border-radius: 15px;
+		margin:5px 10px;
+	}
+
+	.card .card-cta {
+		color: #ffab40;
+		text-decoration: none;
+		font-size:18px;
+		display: block;
+    	width: 30%;
+	}
+
+	.card .card-cta:hover {
+		color: #ffd8a6;
+		text-decoration: none;
+	}
+
+	@media(min-width:1101px) {
 		.card {
 			width: calc(100% / 3);
 		}
@@ -375,5 +391,53 @@ export default {
 
 	.message-box .call-to-action:hover {
 		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	}
+
+  .post-body {
+		text-align: justify;
+		line-height: 1.5;
+		letter-spacing: 0.01rem;
+		font-weight: 400;
+		margin:0 auto;
+		max-width:920px;
+		padding:0px 20px;
+	}
+
+  .post-body img {
+		display:block;
+		margin:0 auto;
+    max-width:100%;
+	}
+
+  .post-body h3 {
+    margin-bottom:0px;
+  }
+
+  .post-body h3 + p {
+    margin-top:0px;
+  }
+
+	.post-body p {
+		font-size: 22px;
+	}
+
+  h1 {
+		font-size: 38px;
+		margin: 10px 0px;
+	}
+
+  h2 {
+		font-size: 30px;
+		margin: 10px 0px;
+	}
+
+  h3 {
+		font-size: 26px;
+		margin: 10px 0px;
+	}
+
+  h4 {
+		font-size: 22px;
+		margin: 5px 0px;
 	}
 </style>
