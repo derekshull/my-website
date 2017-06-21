@@ -50,6 +50,8 @@
 		},
 		created () {
 			this.fetchData()
+			document.title = "Blog Posts by Matt Shull"
+			document.head.querySelector('meta[name=description]').content = "Matt Shull has written many blog posts over the years and continues to write about web performance, Vue.js, web components, and more.  This is a collection of those blog posts.";
 		},
 		watch: {
 			'$route': 'fetchData'

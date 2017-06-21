@@ -50,6 +50,8 @@
 		},
 		created () {
 			this.fetchData()
+			document.title = "Talks by Matt Shull"
+			document.head.querySelector('meta[name=description]').content = "Matt Shull has spoken at many conferences over the years and continues to speak on web performance and development.  This is a collection of those talks.";
 		},
 		watch: {
 			'$route': 'fetchData'

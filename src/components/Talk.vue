@@ -39,6 +39,8 @@
 						this.error = err.toString();
 					} else {
 						this.post = post;
+						document.title = this.post.title;
+						document.head.querySelector('meta[name=description]').content = this.post.description;
 					}
 				});
 			}
