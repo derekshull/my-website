@@ -346,9 +346,10 @@ export default {
 	.card .card-cta {
 		color: #ffab40;
 		text-decoration: none;
-		font-size:18px;
+		font-size:21px;
+    font-weight: 600;
 		display: block;
-    	width: 30%;
+    width: 35%;
 	}
 
 	.card .card-cta:hover {

@@ -180,7 +180,7 @@
 	.post .post-tags {
 		display:flex;
 		justify-content: flex-end;
-		width:70%;
+		width:65%;
 		flex-wrap: wrap;
 	}
 
@@ -195,9 +195,10 @@
 	.post .post-cta {
 		color: #ffab40;
 		text-decoration: none;
-		font-size:18px;
+		font-size:21px;
+    	font-weight: 600;
 		display: block;
-    	width: 30%;
+    	width: 35%;
 	}
 
 	.post .post-cta:hover {
