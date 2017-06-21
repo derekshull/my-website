@@ -1,7 +1,7 @@
 <template>
 	<div class="hello">
 		<section class="featured">
-			<h1 style="margin-top:0px;">Featured Talk:</h1>
+			<h1 style="margin-top:0px;">Latest Talk:</h1>
 			<h2>{{featuredPost.title}}</h2>
 			<p style="font-size:18px;">
 				{{featuredPost.description}}
@@ -78,6 +78,13 @@
 		background: #efefef url("https://www.toptal.com/designers/subtlepatterns/patterns/whitey.png") repeat 0 0;
 		padding:50px 20px;
 	}
+
+	.featured p {
+		margin:0 auto;
+		max-width:900px;
+		padding:0px 20px;
+	}
+
 	.hero-bkg-animated {
 		background: white url("../assets/witewall_3.png") repeat 0 0;
 		width: 100%;
@@ -147,7 +154,7 @@
 	.post .post-photo {
 		font-size: 26px;
 		font-weight: 500;
-		padding: 30px 0px;
+		padding: 30px 15px;
 		-webkit-animation: slide 30s linear infinite;
 	}
 
@@ -156,7 +163,8 @@
 	}
 
 	.post .post-text {
-		padding:0px 10px;
+		padding:0px 15px;
+		text-align:justify;
 	}
 
 	.post .post-cta-container {

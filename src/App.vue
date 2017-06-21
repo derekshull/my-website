@@ -84,6 +84,24 @@ export default {
     margin-left:10px;
   }
 
+  .iframe-container {
+      text-align:center;
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 35px;
+      height: 0;
+      overflow: hidden;
+      margin-bottom:20px;
+  }
+
+  .iframe-container iframe {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
   header {
     width: 100%;
     height: 56px;
@@ -284,7 +302,7 @@ export default {
 	.card .card-photo {
 		font-size: 26px;
 		font-weight: 500;
-		padding: 30px 0px;
+		padding: 30px 15px;
 		-webkit-animation: slide 30s linear infinite;
 	}
 
@@ -293,7 +311,8 @@ export default {
 	}
 
 	.card .card-text {
-		padding:0px 10px;
+		padding:0px 15px;
+    text-align:left;
 	}
 
 	.card .card-cta-container {
@@ -400,7 +419,7 @@ export default {
 		font-weight: 400;
 		margin:0 auto;
 		max-width:920px;
-		padding:0px 20px;
+		padding:20px 20px;
 	}
 
   .post-body img {
@@ -414,12 +433,35 @@ export default {
   }
 
   .post-body h3 + p {
-    margin-top:0px;
+      margin-top:0px;
   }
 
 	.post-body p {
-		font-size: 22px;
+		  font-size: 22px;
 	}
+
+  .post-body .resource-container {
+      margin-bottom:200px; 
+      margin-top:15px;
+      display:flex;
+      font-size: 22px;
+      flex-direction:column;
+      text-align:left;
+  }
+
+  .post-body .resource-container .column {
+      width:100%;
+  }
+
+  @media(min-width:768px) {
+    .post-body .resource-container {
+        flex-direction:row;
+    }
+    .post-body .resource-container .column {
+        width:50%;
+        padding:0px 20px;
+    }
+  }
 
   h1 {
 		font-size: 38px;

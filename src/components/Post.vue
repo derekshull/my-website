@@ -53,4 +53,10 @@
 		padding:50px 20px;
 		color:white;
 	}
+
+	.post-header p {
+		padding:0 20px;
+		max-width: 900px;
+		margin:0 auto;
+	}
 </style>
