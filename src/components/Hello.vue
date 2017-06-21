@@ -41,7 +41,7 @@
 			<ul class="cards">
 				<li v-for="(post, index) in posts" class="card">
 					<article class="card-container">
-						<div class="card-photo" v-bind:style="{background: 'white url('+post.pattern+') repeat 0 0', color: post.titleColor}">
+						<div class="card-photo" style="background: white url('https://www.toptal.com/designers/subtlepatterns/patterns/denim.png') repeat 0 0; color:white;">
 							{{post.title}}
 						</div>
 						<p class="card-text">
