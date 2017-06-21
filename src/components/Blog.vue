@@ -186,8 +186,8 @@
 
 	.post .post-tag {
 		padding: 5px 15px;
-		background: #03a9f4;
-		color: white;
+		background: #BBDEFB;
+		color: black;
 		border-radius: 15px;
 		margin:5px 10px;
 	}
