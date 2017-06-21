@@ -34,6 +34,11 @@
 <script>
 export default {
   name: 'app',
+  watch: {
+    $route() {
+      document.getElementsByClassName('mdl-layout').scrollTop = 0;
+    }
+  },
 };
 </script>
 
