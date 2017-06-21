@@ -11,7 +11,7 @@
 				<div>This is some detail about the special announcement.  It will have a <a href="#">call to action</a>!</div>
 			</div>
 			<div class="column">
-				<a class="call-to-action">Learn More</a>
+				<a href="#" class="call-to-action">Learn More</a>
 			</div>
 		</section>
 
@@ -25,14 +25,14 @@
 			<div class="a-third" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
 				<img class="third-icon" src="/static/icons/speedometer.svg">
 				<h3>Web Performance</h3>
-				<p>#webperf is important for your users and your bottom line.  Let me help your team analyze and fix issues.</p>
-				<a class="cta" href="#">Schedule Meeting</a>
+				<p>#webperf is important for your users and your companies bottom line.  Let me help your team analyze and fix issues.</p>
+				<a class="cta" href="mailto:derekshull@gmail.com?Subject=Web%20Performance%20Consulting&Body=I%27m%20interested%20in%20discussing%20web%20performance%20consulting.%0A%0AMy%20website%20URL%20is%20%3Cinsert%20URL%20here%3E">Schedule Consulting</a>
 			</div>
 			<div class="a-third" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
 				<img class="third-icon" src="/static/icons/man.svg">
-				<h3>Speaking</h3>
+				<h3>Training / Speaking</h3>
 				<p>I love sharing what I've learned by speaking at conferences or teaching teams.  Get in touch for more info!</p>
-				<a class="cta" href="#">Let's Chat</a>
+				<a class="cta" href="mailto:derekshull@gmail.com?Subject=Web%20Performance%20Consulting&Body=I%27m%20interested%20in%20discussing%20a%20training%20or%20speaking%20opportunity.%0A%0AThe%20company/event%20website%20is%20%3Cinsert%20URL%20here%3E">Let's Chat</a>
 			</div>
 		</section>
 
