@@ -11,27 +11,9 @@
 		</section>
 
 		<section>
-			<ul class="cards">
-				<li v-for="(post, index) in posts" v-if="index > 0" class="post">
-					<article class="post-container">
-						<div class="post-photo" style="background: white url('https://www.toptal.com/designers/subtlepatterns/patterns/denim.png') repeat 0 0; color:white;">
-							{{post.title}}
-						</div>
-						<p class="post-text">
-							{{post.description}}
-						</p>
-						<div class="post-cta-container">
-							<a class="post-cta" target="_blank" v-if="post.openInNewWindow" v-bind:href="post.url">Read More</a>
-							<a class="post-cta" v-else v-bind:href="post.url">Read More</a>
-							<div class="post-tags">
-								<div v-for="tag in post.tags" class="post-tag">
-									{{tag}}
-								</div>
-							</div>
-						</div>
-					</article>
-				</li>
-			</ul>
+			<div class="cards">
+				<ms-post v-for="(post, index) in posts" v-if="index > 0" :post-data="post" :key="post.id"></ms-post>
+			</div>
 		</section>
 	</div>
 </template>

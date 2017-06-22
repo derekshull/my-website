@@ -188,6 +188,7 @@ const posts = [{
 	date: "2015-06-19"
   },
   {
+	id: 13,
 	type: "talk",
 	url: '/#/talks/future-insights-2015',
 	openInNewWindow: false,
@@ -247,6 +248,7 @@ const posts = [{
 	`
   },
   {
+	id: 14,
 	type: "talk",
 	url: '/#/talks/uwestfest-2016',
 	openInNewWindow: false,
@@ -330,6 +332,7 @@ const posts = [{
 	`
   },
   {
+	id: 15,
 	type: "talk",
 	url: '/#/talks/codegarden-2016',
 	openInNewWindow: false,
@@ -413,6 +416,7 @@ const posts = [{
 	`
   },
   {
+	id: 16,
 	type: "talk",
 	url: '/#/talks/lift-the-rock-2016',
 	openInNewWindow: false,
@@ -429,6 +433,7 @@ const posts = [{
 	`
   },
   {
+	id: 17,
 	type: "talk",
 	url: '/#/talks/wcrc-2017',
 	openInNewWindow: false,

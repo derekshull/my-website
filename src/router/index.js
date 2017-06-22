@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Hello from '@/components/Hello';
-import Blog from '@/components/Blog';
-import Post from '@/components/Post';
-import Talks from '@/components/Talks';
-import Talk from '@/components/Talk';
+import Hello from '@/views/Hello';
+import Blog from '@/views/Blog';
+import Post from '@/views/Post';
+import Talks from '@/views/Talks';
+import Talk from '@/views/Talk';
 
 Vue.use(Router);
 
