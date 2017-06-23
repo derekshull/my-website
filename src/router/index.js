@@ -8,7 +8,7 @@ import Talks from "@/views/Talks";
 import Talk from "@/views/Talk";
 
 // External Scripts
-import AOS from "@/../node_modules/aos/src/js/aos";
+import AOS from "@/../node_modules/aos/dist/aos";
 
 Vue.use(Router);
 
