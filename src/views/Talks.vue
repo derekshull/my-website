@@ -19,28 +19,30 @@
 </template>
 
 <script>
-	import { getAllPosts } from './posts.js'
+	import { getAllPosts } from "./posts";
+
 	export default {
-		name: 'talks',
+		name: "talks",
 		data() {
 			return {
 				loading: false,
 				posts: null,
 				featuredPost: null,
-				error: null
+				error: null,
 			};
 		},
-		created () {
-			this.fetchData()
-			document.title = "Talks by Matt Shull"
-			document.head.querySelector('meta[name=description]').content = "Matt Shull has spoken at many conferences over the years and continues to speak on web performance and development.  This is a collection of those talks.";
+		created() {
+			this.fetchData();
+			document.title = "Talks by Matt Shull";
+			document.head.querySelector("meta[name=description]").content = "Matt Shull has spoken at many conferences over the years and continues to speak on web performance and development.  This is a collection of those talks.";
 		},
 		watch: {
-			'$route': 'fetchData'
+			$route: "fetchData",
 		},
 		methods: {
-			fetchData () {
-				this.error = this.post = null;
+			fetchData() {
+				this.error = null;
+				this.post = null;
 				this.loading = true;
 				getAllPosts("talk", (err, posts) => {
 					this.loading = false;
@@ -51,7 +53,7 @@
 						this.posts = posts;
 					}
 				});
-			}
+			},
 		},
 	};
 </script>

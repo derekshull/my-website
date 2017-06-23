@@ -13,37 +13,39 @@
 </template>
 
 <script>
-	import { getPost } from './posts.js'
+	import { getPost } from "./posts";
+
 	export default {
-		name: 'post',
+		name: "post",
 		data() {
 			return {
 				loading: false,
 				post: null,
-				error: null
+				error: null,
 			};
 		},
-		created () {
-			this.fetchData()
+		created() {
+			this.fetchData();
 		},
 		watch: {
-			'$route': 'fetchData'
+			$route: "fetchData",
 		},
 		methods: {
-			fetchData () {
-				this.error = this.post = null;
+			fetchData() {
+				this.error = null;
+				this.post = null;
 				this.loading = true;
-				getPost(window.location.pathname+window.location.hash, (err, post) => {
+				getPost(window.location.pathname + window.location.hash, (err, post) => {
 					this.loading = false;
 					if (err) {
 						this.error = err.toString();
 					} else {
 						this.post = post;
-						document.title = this.post.title
-						document.head.querySelector('meta[name=description]').content = this.post.description;
+						document.title = this.post.title;
+						document.head.querySelector("meta[name=description]").content = this.post.description;
 					}
 				});
-			}
+			},
 		},
 	};
 </script>

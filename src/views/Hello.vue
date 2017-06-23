@@ -62,26 +62,28 @@
 </template>
 
 <script>
-	import { getThreeLatest } from './posts.js'
+	import { getThreeLatest } from "./posts";
+
 	export default {
-		name: 'hello',
+		name: "hello",
 		data() {
 			return {
 				loading: false,
 				posts: null,
 				featuredPost: null,
-				error: null
+				error: null,
 			};
 		},
-		created () {
-			this.fetchData()
+		created() {
+			this.fetchData();
 		},
 		watch: {
-			'$route': 'fetchData'
+			$route: "fetchData",
 		},
 		methods: {
-			fetchData () {
-				this.error = this.post = null;
+			fetchData() {
+				this.error = null;
+				this.post = null;
 				this.loading = true;
 				getThreeLatest(null, (err, posts) => {
 					this.loading = false;
@@ -92,16 +94,12 @@
 						this.posts = posts;
 					}
 				});
-			}
+			},
 		},
 	};
-
-	AOS.init({
-		duration: 1000,
-	});
 </script>
 
-	<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 	.hero-bkg-animated {
 		background: white url("../assets/witewall_3.png") repeat 0 0;

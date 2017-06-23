@@ -19,28 +19,30 @@
 </template>
 
 <script>
-	import { getAllPosts } from './posts.js'
+	import { getAllPosts } from "./posts";
+
 	export default {
-		name: 'blog',
+		name: "blog",
 		data() {
 			return {
 				loading: false,
 				posts: null,
 				featuredPost: null,
-				error: null
+				error: null,
 			};
 		},
-		created () {
-			this.fetchData()
-			document.title = "Blog Posts by Matt Shull"
-			document.head.querySelector('meta[name=description]').content = "Matt Shull has written many blog posts over the years and continues to write about web performance, Vue.js, web components, and more.  This is a collection of those blog posts.";
+		created() {
+			this.fetchData();
+			document.title = "Blog Posts by Matt Shull";
+			document.head.querySelector("meta[name=description]").content = "Matt Shull has written many blog posts over the years and continues to write about web performance, Vue.js, web components, and more.  This is a collection of those blog posts.";
 		},
 		watch: {
-			'$route': 'fetchData'
+			$route: "fetchData",
 		},
 		methods: {
-			fetchData () {
-				this.error = this.post = null;
+			fetchData() {
+				this.error = null;
+				this.post = null;
 				this.loading = true;
 				getAllPosts("blog", (err, posts) => {
 					this.loading = false;
@@ -49,14 +51,16 @@
 					} else {
 						this.featuredPost = posts[0];
 						this.posts = posts;
+						// eslint-disable-next-line
+						console.log(posts);
 					}
 				});
-			}
+			},
 		},
 	};
 </script>
 
-	<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 	.featured {
 		background: #efefef url("https://www.toptal.com/designers/subtlepatterns/patterns/whitey.png") repeat 0 0;

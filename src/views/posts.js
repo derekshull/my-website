@@ -1,132 +1,132 @@
 const posts = [{
-    id: 1,
+	id: 1,
 	type: "blog",
-	url: 'http://aristotlebuzz.com/every-second-counts-the-culture-of-web-performance/',
+	url: "http://aristotlebuzz.com/every-second-counts-the-culture-of-web-performance/",
 	openInNewWindow: true,
-    title: 'The Culture of Performance',
+	title: "The Culture of Performance",
 	titleColor: "#212121",
 	description: "Web performance isn't a one person job, it's up to everyone to make sure their work is optimized. In this article I talk about why it's important for everyone to care about web performance and share a few tips to how you can start doing your part to ensure your website is performing at high speeds.",
-	pattern: '/static/bgphotos/witewall_3.png',
+	pattern: "/static/bgphotos/witewall_3.png",
 	tags: ["performance", "#webperf"],
-	date: "2016-05-01"
-  },
-  {
-    id: 2,
+	date: "2016-05-01",
+},
+{
+	id: 2,
 	type: "blog",
-	url: 'https://davidwalsh.name/webp-images-performance',
+	url: "https://davidwalsh.name/webp-images-performance",
 	openInNewWindow: true,
-    title: 'WebP Images & Performance',
+	title: "WebP Images & Performance",
 	titleColor: "#ffffff",
 	description: "It’s said that a picture is worth a thousand words, but online, a picture can be worth a thousand kilobytes or more! In this article Adrian and I look into WebP images, it's image quality, and how to implement them today on the web. If you're a performance geek and want to seriously cut down page size, you've got to check out this article.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png",
 	tags: ["webp", "images", "#webperf", "performance"],
-	date: "2015-04-20"
-  },
-  {
-    id: 3,
+	date: "2015-04-20",
+},
+{
+	id: 3,
 	type: "blog",
-	url: 'http://www.skilledup.com/articles/thinkful-review-learn-coding-with-mentors',
+	url: "http://www.skilledup.com/articles/thinkful-review-learn-coding-with-mentors",
 	openInNewWindow: true,
-    title: 'Thinkful Review: Learn Coding with Mentors',
+	title: "Thinkful Review: Learn Coding with Mentors",
 	titleColor: "#ffffff",
 	description: "Anna Cherry was a student of mine at Thinkful who writes for Skilled Up. She did a review on Thinkful and published the article on SkilledUp.com. I wish Thinkful was around when I was learning to code. Having someone to bounce ideas off of and keep me motivated would have made me learn a lot faster!",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/crissXcross.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/crissXcross.png",
 	tags: ["thinkful", "mentoring", "learning"],
-	date: "2015-01-13"
-  },
-  {
-    id: 4,
+	date: "2015-01-13",
+},
+{
+	id: 4,
 	type: "blog",
-	url: 'https://www.thinkful.com/blog/optimizing-your-images-make-your-website-load/',
+	url: "https://www.thinkful.com/blog/optimizing-your-images-make-your-website-load/",
 	openInNewWindow: true,
-    title: 'Optimizing your images: Make your website load faster',
+	title: "Optimizing your images: Make your website load faster",
 	titleColor: "#212121",
 	description: "Images take up the majority of page size today. In this article I talk about optimizing images to ensure they are optimized to the best of their ability. We take a look at the different types of images and the tools available to help optimze them.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/roughcloth.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/roughcloth.png",
 	tags: ["images", "performance", "#webperf"],
-	date: "2014-11-26"
-  },
-  {
-    id: 5,
+	date: "2014-11-26",
+},
+{
+	id: 5,
 	type: "blog",
-	url: 'http://aristotlebuzz.com/physical-web/',
+	url: "http://aristotlebuzz.com/physical-web/",
 	openInNewWindow: true,
-    title: 'Solving Big Challenges of the Physical Web',
+	title: "Solving Big Challenges of the Physical Web",
 	titleColor: "#ffffff",
 	description: "The Physical Web and beacon technology is changing the way people interact with the things around them. This post is a response to IBM's blog post on the challenges of the physical web.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/denim.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/denim.png",
 	tags: ["physical web", "eddystone", "beacons", "IoT"],
-	date: "2015-11-15"
-  },
-  {
-    id: 6,
+	date: "2015-11-15",
+},
+{
+	id: 6,
 	type: "blog",
-	url: 'https://www.smashingmagazine.com/2015/10/webp-images-and-performance/',
+	url: "https://www.smashingmagazine.com/2015/10/webp-images-and-performance/",
 	openInNewWindow: true,
-    title: 'WebP Images and Performance',
+	title: "WebP Images and Performance",
 	titleColor: "#212121",
 	description: "It’s said that a picture is worth a thousand words, but online, a picture can be worth a thousand kilobytes or more! In this article Adrian and I look into WebP images, it's image quality, and how to implement them today on the web. If you're a performance geek and want to seriously cut down page size, you've got to check out this article.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/whitediamond.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/whitediamond.png",
 	tags: ["images", "performance", "#webperf", "webp"],
-	date: "2015-10-24"
-  },
-  {
-    id: 7,
+	date: "2015-10-24",
+},
+{
+	id: 7,
 	type: "blog",
-	url: 'https://davidwalsh.name/questions-google-amp',
+	url: "https://davidwalsh.name/questions-google-amp",
 	openInNewWindow: true,
-    title: 'Questions for Google AMP',
+	title: "Questions for Google AMP",
 	titleColor: "#ffffff",
 	description: "There's a lot of buzz about the new Google AMP spec, which allows developers to create fast sites with special markup. But after looking into this trend I had a few questions that needed to be answered. The main question: couldn't we accomplish the same result with standard markup and services?",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/dark_dotted.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/dark_dotted.png",
 	tags: ["performance", "#webperf", "google amp"],
-	date: "2016-03-21"
-  },
-  {
-    id: 8,
+	date: "2016-03-21",
+},
+{
+	id: 8,
 	type: "blog",
-	url: 'http://aristotlebuzz.com/beautiful-design-and-groundbreaking-performance-aspsf-org/',
+	url: "http://aristotlebuzz.com/beautiful-design-and-groundbreaking-performance-aspsf-org/",
 	openInNewWindow: true,
-    title: 'Design and Performance: ASPSF.org',
+	title: "Design and Performance: ASPSF.org",
 	titleColor: "#212121",
 	description: "Many believe you have to sacrafice design and/or functionality for performance. That's just not true! Here we proved that when our team redesigned Arkansas Single Parent Scholarship.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/large_leather.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/large_leather.png",
 	tags: ["performance", "#webperf"],
-	date: "2016-01-15"
-  },
-  {
-    id: 9,
+	date: "2016-01-15",
+},
+{
+	id: 9,
 	type: "blog",
-	url: 'https://davidwalsh.name/measuring-performance',
+	url: "https://davidwalsh.name/measuring-performance",
 	openInNewWindow: true,
-    title: 'Measuring Performance',
+	title: "Measuring Performance",
 	titleColor: "#ffffff",
 	description: "People care deeply about web performance and they depend on us to articulate and measure how well their website is performing. There are great paid products on the market that can keep track of a website's performance, but there are plenty of websites and JavaScript APIs that can help you measure these metrics free of charge.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/outlets.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/outlets.png",
 	tags: ["performance", "#webperf", "javascript"],
-	date: "2015-04-12"
-  },
-  {
-    id: 10,
+	date: "2015-04-12",
+},
+{
+	id: 10,
 	type: "blog",
-	url: 'https://www.keycdn.com/blog/web-performance-experts/',
+	url: "https://www.keycdn.com/blog/web-performance-experts/",
 	openInNewWindow: true,
-    title: '60 Web Performance Experts to Follow',
+	title: "60 Web Performance Experts to Follow",
 	titleColor: "#212121",
 	description: "KeyCDN created a list of top web performance experts to follow on Twitter. I was extremely excited to see my name (#22) on this list full of incredible designers and developers that I've been following for years!",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/blizzard.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/blizzard.png",
 	tags: ["performance", "#webperf"],
-	date: "2015-05-10"
-  },
-  {
-    id: 11,
+	date: "2015-05-10",
+},
+{
+	id: 11,
 	type: "talk",
-	url: '/#/talks/web-performance-past-present-and-future',
+	url: "/talks/web-performance-past-present-and-future",
 	openInNewWindow: false,
-    title: 'Web Performance: Past, Present and Future',
+	title: "Web Performance: Past, Present and Future",
 	titleColor: "#ffffff",
 	description: "Deep dive into what metrics are important for measuring web peformance and what best practices to use ",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/tex2res4.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/tex2res4.png",
 	tags: ["performance", "#webperf", "javascript"],
 	date: "2015-02-10",
 	body: `
@@ -173,29 +173,29 @@ const posts = [{
 				</ul>
 			</div>
 		</section>
-	`
-  },
-  {
-    id: 12,
+	`,
+},
+{
+	id: 12,
 	type: "talk",
-	url: 'https://pathtoperf.com/2015/06/19/06-with-matt-shull.html',
+	url: "https://pathtoperf.com/2015/06/19/06-with-matt-shull.html",
 	openInNewWindow: true,
-    title: 'Path to Perf Podcast with Matt Shull',
+	title: "Path to Perf Podcast with Matt Shull",
 	titleColor: "#212121",
 	description: "The Path to Perf podcast where I discuss all things performance with the hosts.  Everything from optimizing images to creating a culture of performance at an agency.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/arches.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/arches.png",
 	tags: ["performance", "#webperf"],
-	date: "2015-06-19"
-  },
-  {
+	date: "2015-06-19",
+},
+{
 	id: 13,
 	type: "talk",
-	url: '/#/talks/future-insights-2015',
+	url: "/talks/future-insights-2015",
 	openInNewWindow: false,
-    title: 'Web Components and Polymer',
+	title: "Web Components and Polymer",
 	titleColor: "#ffffff",
 	description: "At Future Insights 2015 I spoke on how to start using web components and Polymer in production.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/black_mamba.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/black_mamba.png",
 	tags: ["polymer", "web components"],
 	date: "2015-05-01",
 	body: `
@@ -245,17 +245,17 @@ const posts = [{
 				</ul>
 			</div>
 		</section>
-	`
-  },
-  {
+	`,
+},
+{
 	id: 14,
 	type: "talk",
-	url: '/#/talks/uwestfest-2016',
+	url: "/talks/uwestfest-2016",
 	openInNewWindow: false,
-    title: 'Umbraco and the Need for Speed',
+	title: "Umbraco and the Need for Speed",
 	titleColor: "#212121",
 	description: "Umbraco is one of the fastest CMSs on the market.  In this talk I show how to optimize content to keep an Umbraco website running at top speed.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/diamond_upholstery.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/diamond_upholstery.png",
 	tags: ["performance", "#webperf", "javascript"],
 	date: "2016-04-12",
 	body: `
@@ -297,10 +297,10 @@ const posts = [{
 				<ul>
 					<li><a href="http://httparchive.org/interesting.php" target="_blank">HTTP Archive</a></li>
 					<li><a href="http://caniuse.com/" target="_blank">CanIUse.com Browser Support</a></li>
-                    <li><a href="https://www.smashingmagazine.com/2015/10/webp-images-and-performance/" target="_blank">Smashing Magazine: Using WebP</a></li>
+					<li><a href="https://www.smashingmagazine.com/2015/10/webp-images-and-performance/" target="_blank">Smashing Magazine: Using WebP</a></li>
 					<li><a href="http://picture.responsiveimages.org/" target="_blank">Picturefill</a></li>
 					<li><a href="https://modernizr.com/" target="_blank">Modernizr</a></li>
-                    <li><a href="https://github.com/aristotle-labs/css-splitter/" target="_blank">CSS Split Tool</a></li>
+					<li><a href="https://github.com/aristotle-labs/css-splitter/" target="_blank">CSS Split Tool</a></li>
 					<li><a href="https://github.com/filamentgroup/loadCSS" target="_blank">LoadCSS</a></li>
 					<li><a href="http://www.sitepoint.com/you-dont-need-javascript-for-that/" target="_blank">No Javascript Image Slider and Tabs</a></li>
 					<li><a href="http://codepen.io/collection/mDfbp/" target="_blank">No Javascript Modal and Responsive Navigation</a></li>
@@ -329,17 +329,17 @@ const posts = [{
 				</ul>
 			</div>
 		</section>
-	`
-  },
-  {
+	`,
+},
+{
 	id: 15,
 	type: "talk",
-	url: '/#/talks/codegarden-2016',
+	url: "/talks/codegarden-2016",
 	openInNewWindow: false,
-    title: '#webPerf and Umbraco',
+	title: "#webPerf and Umbraco",
 	titleColor: "#ffffff",
 	description: "Understanding performance best practices and how to implement them in Umbraco is key for creating fast websites.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/use_your_illusion.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/use_your_illusion.png",
 	tags: ["performance", "#webperf", "javascript"],
 	date: "2016-05-12",
 	body: `
@@ -381,10 +381,10 @@ const posts = [{
 				<ul>
 					<li><a href="http://httparchive.org/interesting.php" target="_blank">HTTP Archive</a></li>
 					<li><a href="http://caniuse.com/" target="_blank">CanIUse.com Browser Support</a></li>
-                    <li><a href="https://www.smashingmagazine.com/2015/10/webp-images-and-performance/" target="_blank">Smashing Magazine: Using WebP</a></li>
+					<li><a href="https://www.smashingmagazine.com/2015/10/webp-images-and-performance/" target="_blank">Smashing Magazine: Using WebP</a></li>
 					<li><a href="http://picture.responsiveimages.org/" target="_blank">Picturefill</a></li>
 					<li><a href="https://modernizr.com/" target="_blank">Modernizr</a></li>
-                    <li><a href="https://github.com/aristotle-labs/css-splitter/" target="_blank">CSS Split Tool</a></li>
+					<li><a href="https://github.com/aristotle-labs/css-splitter/" target="_blank">CSS Split Tool</a></li>
 					<li><a href="https://github.com/filamentgroup/loadCSS" target="_blank">LoadCSS</a></li>
 					<li><a href="http://www.sitepoint.com/you-dont-need-javascript-for-that/" target="_blank">No Javascript Image Slider and Tabs</a></li>
 					<li><a href="http://codepen.io/collection/mDfbp/" target="_blank">No Javascript Modal and Responsive Navigation</a></li>
@@ -413,96 +413,92 @@ const posts = [{
 				</ul>
 			</div>
 		</section>
-	`
-  },
-  {
+	`,
+},
+{
 	id: 16,
 	type: "talk",
-	url: '/#/talks/lift-the-rock-2016',
+	url: "/talks/lift-the-rock-2016",
 	openInNewWindow: false,
-    title: 'Proximity Marketing with BeaconSage',
+	title: "Proximity Marketing with BeaconSage",
 	titleColor: "#212121",
 	description: "The way we connect with customers is changing and our businesses should change with them.  Using beacons businesses can send content to customers, even without an app.  BeaconSage allows businesses to create great content and manage beacons in one place.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/retina_dust.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/retina_dust.png",
 	tags: ["beacons", "eddystone", "proximity marketing"],
 	date: "2016-11-12",
 	body: `
 		<div class="iframe-container">
 			<iframe src="https://www.youtube.com/embed/BTwxJ6lDs7I" frameborder="0" allowfullscreen></iframe>
 		</div>
-	`
-  },
-  {
+	`,
+},
+{
 	id: 17,
 	type: "talk",
-	url: '/#/talks/wcrc-2017',
+	url: "/talks/wcrc-2017",
 	openInNewWindow: false,
-    title: 'A Tale of Creativity, ES2015, and Using Native Components in Production',
+	title: "A Tale of Creativity, ES2015, and Using Native Components in Production",
 	titleColor: "#ffffff",
 	description: "A team set out to create a design language for their SaaS products learns what it means to use native Web Components in production. Through battles with ES2015, browser compatibility, and polyfills, to victories of designers using HTML to prototype.",
-	pattern: 'https://www.toptal.com/designers/subtlepatterns/patterns/hexabump.png',
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/hexabump.png",
 	tags: ["es2015", "web components", "design"],
 	date: "2017-02-16",
 	body: `
 		<div class="iframe-container">
 			<iframe src="https://www.youtube.com/embed/kfYYdJvqSA4?list=PLRkchWaHaapd13dkBeOnDDcnPRe7_MWwJ" frameborder="0" allowfullscreen></iframe>
 		</div>
-	`
-  }
-]
+	`,
+},
+];
 
 function sortByDate(jsObj, type) {
-  	let sortedArray = [];
-  	for(let i in jsObj) {
-  		// Push each JSON Object entry in array by [value, key]
+	let sortedArray = [];
+	Object.keys(jsObj).forEach((key, i) => {
+		// Push each JSON Object entry in array by [value, key]
 		if (!type) {
 			sortedArray.push([jsObj[i].date, jsObj[i]]);
+		} else if (jsObj[i].type === type) {
+			sortedArray.push([jsObj[i].date, jsObj[i]]);
 		}
-		else {
-			if (jsObj[i].type == type) {
-				sortedArray.push([jsObj[i].date, jsObj[i]]);
-			}
-		}
-	}
+	});
 
 	sortedArray = sortedArray.sort().reverse();
 
-	let sortedJSON = {};
-	for(let i in sortedArray) {
-  		// Push each JSON Object entry in array by [value, key]
+	const sortedJSON = {};
+	for (let i = 0; i < sortedArray.length; i += 1) {
+		// Push each JSON Object entry in array by [value, key]
 		sortedJSON[i] = sortedArray[i][1];
 	}
 
 	return sortedJSON;
 }
 
-export function getPost (url, cb) {
-	for (let i = 0; i < (posts.length); i++) {
-		if (posts[i].url == url){
+export function getPost(url, cb) {
+	for (let i = 0; i < posts.length; i += 1) {
+		if (posts[i].url === url) {
 			cb(null, posts[i]);
 		}
 	}
 }
 
-export function getThreeLatest (type, cb) {
-	var sortedArray = sortByDate(posts, type);
+export function getThreeLatest(type, cb) {
+	const sortedArray = sortByDate(posts, type);
 
-	let latestArray = [sortedArray[0], sortedArray[1], sortedArray[2]];
-	console.log(latestArray)
+	const latestArray = [sortedArray[0], sortedArray[1], sortedArray[2]];
 
 	if (latestArray) {
 		cb(null, latestArray);
 	} else {
-		cb(new Error('Latest post not found.'));
+		cb(new Error("Latest post not found."));
 	}
 }
 
-export function getAllPosts (type, cb) {
-	var sortedArray = sortByDate(posts, type);
+export function getAllPosts(type, cb) {
+	const sortedArray = sortByDate(posts, type);
 
 	if (sortedArray) {
 		cb(null, sortedArray);
 	} else {
-		cb(new Error('Latest post not found.'));
+		cb(new Error("Latest post not found."));
 	}
 }

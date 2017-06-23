@@ -1,28 +1,28 @@
 <template>
-  <div class="post">
-    <article class="post-container">
-      <div class="post-photo inverted" style="background: white url('https://www.toptal.com/designers/subtlepatterns/patterns/denim.png') repeat 0 0; color:white;">
-        {{postData.title}}
-      </div>
-      <p class="post-text">
-        {{postData.description}}
-      </p>
-      <div class="post-cta-container">
-        <a class="post-cta" target="_blank" v-if="postData.openInNewWindow" v-bind:href="postData.url">Read More</a>
-        <a class="post-cta" v-else v-bind:href="postData.url">Read More</a>
-        <div class="post-tags">
-          <div v-for="tag in postData.tags" class="post-tag">
-            {{tag}}
-          </div>
-        </div>
-      </div>
-    </article>
-  </div>
+	<div class="post">
+		<article class="post-container">
+			<div class="post-photo inverted" style="background: white url('https://www.toptal.com/designers/subtlepatterns/patterns/denim.png') repeat 0 0; color:white;">
+				{{postData.title}}
+			</div>
+			<p class="post-text">
+				{{postData.description}}
+			</p>
+			<div class="post-cta-container">
+				<a class="post-cta" target="_blank" v-if="postData.openInNewWindow" v-bind:href="postData.url">Read More</a>
+				<a class="post-cta" v-else v-bind:href="postData.url">Read More</a>
+				<div class="post-tags">
+					<div v-for="tag in postData.tags" class="post-tag">
+						{{tag}}
+					</div>
+				</div>
+			</div>
+		</article>
+	</div>
 </template>
 
 <script>
 	export default {
-		props: ['postData'],
+		props: ["postData"],
 	};
 </script>
 
@@ -93,9 +93,9 @@
 		color: #ffab40;
 		text-decoration: none;
 		font-size:21px;
-    	font-weight: 600;
+		font-weight: 600;
 		display: block;
-    	width: 35%;
+		width: 35%;
 	}
 
 	.post .post-cta:hover {
