@@ -55,7 +55,7 @@
 				</li>
 			</ul>
 			<p>
-				View all <a href="/#/talks">videos</a> and <a href="/#/blog">articles</a>.
+				View all <a href="/talks">videos</a> and <a href="/blog">articles</a>.
 			</p>
 		</section>
 	</div>
