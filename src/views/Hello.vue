@@ -20,7 +20,7 @@
 				<img class="third-icon" src="/static/icons/world.svg">
 				<h3>Web Apps</h3>
 				<p>I build awesome web apps with tech like push notifications, web components, and responsive design.</p>
-				<a class="cta" href="#">Learn More</a>
+				<a class="cta" href="/blog">Learn More</a>
 			</div>
 			<div class="a-third" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
 				<img class="third-icon" src="/static/icons/speedometer.svg">

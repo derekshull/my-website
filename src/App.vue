@@ -23,7 +23,7 @@
 						<li><a class="js-side-nav__link" href="/blog" title="go to matt's blog">Blog</a></li>
 						<li><a class="js-side-nav__link" href="/talks" title="see all of matt's talks">Talks</a></li>
 						<!--<li><a class="js-side-nav__link" href="/courses" title="see matt's work">Courses</a></li>-->
-						<li><a class="js-side-nav__link" href="/contact" title="contact matt">Contact</a></li>
+						<!--<li><a class="js-side-nav__link" href="/contact" title="contact matt">Contact</a></li>-->
 					</ul>
 				</nav>
 			</aside>
