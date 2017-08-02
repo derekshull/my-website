@@ -443,7 +443,7 @@
 	}
 
 	.post-body p {
-		font-size: 22px;
+		font-size: 18px;
 	}
 
 	.post-body .resource-container {

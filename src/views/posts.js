@@ -449,6 +449,50 @@ const posts = [{
 		</div>
 	`,
 },
+{
+	id: 18,
+	type: "blog",
+	url: "/blog/leaving-aristotle",
+	title: "You're Leaving Aristotle?!",
+	titleColor: "#ffffff",
+	description: "I'm excited to announce that I have a new job!  A few people have been asking some questions and I want to make sure we clarify a few things.",
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png",
+	tags: ["my work", "life"],
+	date: "2017-08-02",
+	body: `
+		<p>
+			In a recent Facebook post, I announced that as of August 14th I will be working for Thinkful as the Data Science Program Manager.  I'm very excited about this new role and to be a part of the Thinkful team.  I'll soon be writing a post about this new opportunity and what it entails, but first I wanted to discuss a couple of things for clarification.
+		</p>
+
+		<p>
+			Since I posted the news on Monday, I've received a number of text messages, emails, and social media messages.  Everyone has been very positive about my new role, but I've noticed a trend of people asking me why I left and what my thoughts are about Aristotle.  It appears that most people who ask these questions tend to want some juicy gossip or horrific story about my experience at Aristotle.  Fortunately though, I'm going to have to disappoint those people.  Let's talk through some frequently asked questions.
+		</p>
+
+		<h3>You're leaving Aristotle Labs?</h3>
+		<p>
+			Yes and no.  As many of you know, I helped create Aristotle Labs under the direction of Elizabeth Bowles.  The story of how all that came to be is a great one, but we'll have to tell it another time.  What you should know is: Yes, I'm no longer going to be an employee of Aristotle Labs.  Also, no, I am not leaving entirely.  I will still be doing web performance, product/feature ideation, IoT/Beacon, and other forms of consulting as needed with Aristotle.  I love the products and services we created together over the last few years!  Completely cutting myself off from Aristotle would be like abandoning my children.  Which is why I'm excited that Elizabeth and the team have asked to have me come in occasionally and consult on products and services in the future.
+		</p>
+
+		<h3>What Happened?</h3>
+		<p>
+			Nothing.  In fact, things are going so well with BeaconSage and other services and plans that I felt that taking the Thinkful opportunity was doable for both Aristotle Labs and myself.  Sorry to disappoint, but there's no crazy story or hurt feelings.  Before I came on at Aristotle, I worked with Thinkful as a part-time mentor.  I always told the team at Thinkful that I would love to do what I did there full time.  At the time Thinkful wasn't able to bring anyone like that on full-time.  Now they are able to, and so we began discussing the opportunity.
+		</p>
+
+		<h3>So is Aristotle ramping down Labs?  Are the products gonna go away?</h3>
+		<p>
+			Actually just the opposite.  There's two things here that I want to address.  The first is that Elizabeth and I have been very careful through the creation of Aristotle Labs not to have the company or its products hinge on one single person.  Aristotle Labs and its products aren't MY brainchild.  They are the result of the hard work of the whole team.  Secondly, this isn't Aristotle's first rodeo.  The company has been around for 20+ years and in that time, has reinvented itself multiple times to fit the needs of the industry and their customers.
+		</p>
+
+		<p>
+			In the last couple of years, Aristotle's executive team made a conscious decision to move into the software as a service industry.  This shouldn't come as a huge surprise.  Many agencies are beginning to start SaaS product divisions.  Many startups and businesses don't make it to 20+ years in this industry.  Most are here today, gone tomorrow.  Aristotle has been through this process of reinventing or adding new services to its lineup in the past.  That's why they do online media marketing, web development, voice over IP, internet service provision, and other services.
+		</p>
+
+		<h3>So What Now?</h3>
+		<p>
+			I'm extremely proud of the work I accomplished at Aristotle Labs with the team.  I've learned a lot about leadership, product creation, sales, marketing, etc.  Personally, Elizabeth has been an incredible mentor to me and will continue to be.  Labs and BeaconSage are just getting started.  The product is already out in the market. There's a clear year and a half roadmap of new features and products, and more importantly, there's a dedicated team to growing these products.  I'm looking forward to seeing all the different ways these products continue to bring value to customers!
+		</p>
+	`,
+},
 ];
 
 function sortByDate(jsObj, type) {
