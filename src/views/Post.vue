@@ -43,6 +43,10 @@
 						this.post = post;
 						document.title = this.post.title;
 						document.head.querySelector("meta[name=description]").content = this.post.description;
+						document.head.querySelector("meta[property='twitter:card']").content = "article";
+						document.head.querySelector("meta[property='twitter:description']").content = this.post.description;
+						document.head.querySelector("meta[property='twitter:title']").content = this.post.title;
+						document.head.querySelector("meta[property='twitter:image']").content = "./assets/logo-head.jpg";
 					}
 				});
 			},
