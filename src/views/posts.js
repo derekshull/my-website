@@ -518,7 +518,7 @@ const posts = [{
 		</p>
 
 		<p>
-			Here's the findings of my research.  I hope you enjoy!
+			Here's the findings of my research.  I hope you enjoy! 
 		</p>
 
 		<p>
