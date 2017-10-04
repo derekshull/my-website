@@ -493,6 +493,39 @@ const posts = [{
 		</p>
 	`,
 },
+{
+	id: 19,
+	type: "blog",
+	url: "/blog/my-first-data-science-project",
+	title: "My First Data Science Project",
+	titleColor: "#ffffff",
+	description: "Since I'm now program manager for the data science program at Thinkful I've decided to dive in and get my hands dirty with some data science tools like numpy and pandas.  Here's the result of my first project.",
+	pattern: "https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png",
+	tags: ["data science"],
+	date: "2017-10-03",
+	body: `
+		<p>
+			First I'll start by saying that my new obession is data science!  I've been the program manager for data science at Thinkful for the last (almost) 2 months.  During that time I have been diving into the field and there's one thing I've discovered: data science is the most generic term I've ever heard!  It includes so many fields in it that it blew my mind.  NLP, deep learning, computer vision, big data, etc.  There's endless possibilities to having a career in data science.
+		</p>
+
+		<p>
+			So I've decided to blog about my experiences in learning data science using Thinkful curriculum.  One of the assignments early on is to find a data set and use matplotlib to create some visualizations around the dataset to see what we can discover.  Being the nerd that I am, I found a dataset of all the Pokemon and that stats.  I decided that I wanted to know three things about Pokemon:
+			<ol>
+				<li>What's the difference in attack power and defense power in different generations of Pokemon?</li>
+				<li>Is there a trend in attack and defense power in each pokemon?</li>
+				<li>What type of Pokemon is more powerful?</li>
+			</ol>
+		</p>
+
+		<p>
+			Here's the findings of my research.  I hope you enjoy!
+		</p>
+
+		<p>
+			<iframe class="render-viewer" src="https://render.githubusercontent.com/view/ipynb?commit=eb014106d0bc55f37c5a02673893962a6a79bcbd&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f646572656b7368756c6c2f706f6b656d6f6e2f656230313431303664306263353566333763356130323637333839333936326136613739626362642f506f6b656d6f6e253230445325323050726f6a6563742e6970796e62&amp;nwo=derekshull%2Fpokemon&amp;path=Pokemon+DS+Project.ipynb&amp;repository_id=105661471&amp;repository_type=Repository#ca37763b-7f20-4164-aa21-8919bb91c54c" sandbox="allow-scripts allow-same-origin allow-top-navigation" style="display: block; width: 100%; height: 100%; border: 0; height: 5262px;">Viewer requires iframe.</iframe>
+		</p>
+	`,
+},
 ];
 
 function sortByDate(jsObj, type) {
